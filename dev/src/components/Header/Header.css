@@ -1,0 +1,35 @@
+header { 
+    display: flex;
+    text-align: center;
+    color: #ffff;
+    font-family: monospace;
+    background-color: var(--eeireBlack);
+    justify-content: space-between;
+    min-width: -webkit-fill-available;
+    min-width: -moz-fill-available;
+}
+
+header h1 {
+    margin-left: 1rem;
+}
+
+header a {
+    color: #ffff;
+    border-radius: 10%;
+    font-family: monospace;
+    text-decoration: none;
+    padding: 1rem 1rem 1rem 1rem;
+
+}
+
+header a:hover {
+    background-color: #4c9e9e;
+}
+
+div.nav-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.5rem;
+}
