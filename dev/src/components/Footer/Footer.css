@@ -20,3 +20,7 @@ footer a:hover {
     cursor: pointer;
     text-decoration: underline;
 }
+
+svg {
+    margin-right: 1rem;
+}

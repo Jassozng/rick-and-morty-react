@@ -1,0 +1,50 @@
+{
+    "character": 
+    {
+        "image": "image",
+        "title": "name",
+        "subtitle": "status",
+        "titleP1": "Episode: ",
+        "p1": "episode",
+        "titleP2": "Specie: ",
+        "p2": "species",
+        "titleP3": "Gender: ",
+        "p3": "gender",
+        "titleP4": "Last seen location: ",
+        "p4": "location",
+        "requestP1": "episode",
+        "requestP4": "location"
+    },
+    "location": 
+    {
+        "image": "",
+        "title": "name",
+        "subtitle": "type",
+        "titleP1": "Residents: ",
+        "p1": "residents",
+        "titleP2": "Dimension: ",
+        "p2": "dimension",
+        "titleP3": "",
+        "p3": "",
+        "titleP4": "",
+        "p4": "",
+        "requestP1": "character",
+        "requestP4": ""
+    },
+    "episode": 
+    {
+        "image": "",
+        "title": "name",
+        "subtitle": "episode",
+        "titleP1": "Characters: ",
+        "p1": "characters",
+        "titleP2": "Was created: ",
+        "p2": "created",
+        "titleP3": "",
+        "p3": "",
+        "titleP4": "",
+        "p4": "",
+        "requestP1": "character",
+        "requestP4": ""
+    }
+}

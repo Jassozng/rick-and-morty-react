@@ -8,6 +8,57 @@
   margin: 3rem;
 }
 
+.main-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+@media (max-width: 820px) {
+  .main-menu {
+    flex-direction: column;
+  }
+}
+
+.menu-option {
+  flex: 1;
+  align-self: end;
+  max-height: 33%;
+}
+
+.menu-option img {
+  width: 50%;
+}
+
 .card {
   padding: 2em;
+}
+
+.title {
+  color: var(--grayTitle);
+  font-family: fantasy, sans-serif;
+}
+
+.text-grey {
+  color: var(--grayText);
+}
+
+.btn-search {
+  background-color: #1ba94c;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgb(27 169 76 / 50%);
+  font-size: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  min-height: 3rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-search:hover {
+  background-color: #ffffff;
+  border: 1px solid #1ba94c;
+  color: #1ba94c;
 }
